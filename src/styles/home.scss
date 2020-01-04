@@ -1,0 +1,21 @@
+.Home_Background{
+    width: 100vw;
+    height: 95vh;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
+    position: absolute;
+}
+
+.Home_Title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: $color-black;
+    top: +20rem;
+    font-size: 3.5rem;
+}
+
+.Subtitle {
+    font-size: 2.5rem;
+}
