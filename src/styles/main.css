@@ -1,6 +1,7 @@
 @import './home.scss';
 @import './variables.scss';
 @import './projects.scss';
+@import './navbar.scss';
 
 *,
   *::after,

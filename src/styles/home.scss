@@ -1,21 +1,32 @@
-.Home_Background{
+.Home {
     width: 100vw;
-    height: 95vh;
+    height: 40vh;
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
-    position: absolute;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: $color-black;
+    padding: 3rem;
 }
 
-.Home_Title {
-    position: relative;
+.Home--title {
+    font-size: 3.5rem;
     display: flex;
     justify-content: center;
-    color: $color-black;
-    top: +20rem;
-    font-size: 3.5rem;
 }
 
-.Subtitle {
+.Home--subtitle {
     font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Home--paragraph {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
 }
