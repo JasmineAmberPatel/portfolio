@@ -1,14 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <div className="NavBar">
-            <ul className="PageLinks">    
-            <img className="logo" alt="logo" src={require('../images/logo.png')} />
-                <Link className="about" to="/about">About</Link>
-                <Link className="projects" to="/projects">Projects</Link>
-                <Link className="social" to="/social">Social</Link>
+            <ul className="Pageas">    
+                <img className="logo" alt="logo" src={require('../images/logo.png')} />
+                <a className="about" href="#about">About</a>
+                <a className="projects" href="#projects">Projects</a>
+                <a className="social" href="#social">Social</a>
             </ul>
         </div>
     );

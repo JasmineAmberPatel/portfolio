@@ -3,7 +3,7 @@
     height: 40vh;
     background-size: cover;
     background-position: top;
-    background-color: lightpink;
+    background-color: #8ac6d1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,13 +12,13 @@
     padding: 3rem;
 }
 
-.Home--title {
+.Title {
     font-size: 3.5rem;
     display: flex;
     justify-content: center;
 }
 
-.Home--subtitle {
+.Subtitle {
     font-size: 2.5rem;
     display: flex;
     justify-content: center;

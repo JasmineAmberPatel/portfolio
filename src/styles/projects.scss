@@ -1,0 +1,11 @@
+.Projects {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.Projects_box {
+    margin: 2rem;
+}

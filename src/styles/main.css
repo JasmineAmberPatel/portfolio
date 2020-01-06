@@ -2,6 +2,7 @@
 @import './variables.scss';
 @import './projects.scss';
 @import './navbar.scss';
+@import './app.scss';
 
 *,
   *::after,
