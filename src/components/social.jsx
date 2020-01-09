@@ -1,11 +1,16 @@
 import React from 'react';
+import { SocialIcon } from 'react-social-icons';
 
-function Social () {
+function Social() {
     return (
         <div className="Social" id="social">
-            <h2>Get In Touch</h2>
-            <br/>
-            <p>Do you want to know more about me or my work? Or do you have a cool project that you want me to dive into? Get in contact with me via the links below or send me an email.</p>
+            <h2 className="Subtitle">Get in Touch</h2>
+            <div className="social-icons">
+                <SocialIcon url="https://twitter.com/CodesJamber" network="twitter" style={{ height: 25, width: 25, margin: 5 }} bgColor="#272727" fgColor="#ffffff" />
+                <SocialIcon url="https://www.linkedin.com/in/jasmine-amber-patel-b04956a1/" network="linkedin" style={{ height: 25, width: 25, margin: 5 }} bgColor="#272727" fgColor="#ffffff" />
+                <SocialIcon url="https://github.com/JasmineAmberPatel" network="github" style={{ height: 25, width: 25, margin: 5 }} bgColor="#272727" fgColor="#ffffff" />
+                <SocialIcon url="https://www.behance.net/jasmineamberdesign" network="behance" style={{ height: 25, width: 25, margin: 5 }} bgColor="#272727" fgColor="#ffffff" />
+            </div>
         </div>
     )
 };

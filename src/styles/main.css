@@ -3,6 +3,7 @@
 @import './projects.scss';
 @import './navbar.scss';
 @import './app.scss';
+@import './social.scss';
 
 *,
   *::after,

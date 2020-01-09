@@ -1,0 +1,13 @@
+.Social {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 3rem;
+    background-color: $color-blue;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
