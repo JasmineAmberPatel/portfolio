@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/main.css';
+import './styles/main.scss';
 import About from './components/about';
 import Navbar from './components/navbar';
 import Projects from './components/projects';
@@ -11,10 +11,8 @@ function App() {
     <div className="app">
       <Navbar />
       <About />
-      <Projects />
       <Social />
     </div>
-
   );
 }
 

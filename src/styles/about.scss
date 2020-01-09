@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.Home {
+    height: 40vh;
+    background-color: $colorPink;
+    display: flex;
+    top: -10;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: $colorBlack;
+    padding: 3rem;
+}

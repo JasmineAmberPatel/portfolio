@@ -3,11 +3,11 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div className="NavBar">
-            <ul className="Pageas">    
-                <img className="logo" alt="logo" src={require('../images/logo.png')} />
-                <a className="about" href="#about">About</a>
-                <a className="projects" href="#projects">Projects</a>
-                <a className="social" href="#social">Social</a>
+            <img id="logo" src={require('../images/logo.png')} alt="logo"></img>
+            <ul className="Paragraph Link">    
+                <a className="PageLinks" href="#about">About</a>
+                <a className="PageLinks" href="#projects">Projects</a>
+                <a className="PageLinks" href="#social">Social</a>
             </ul>
         </div>
     );
