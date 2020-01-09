@@ -1,11 +1,60 @@
-.Projects {
+.Projects_container {
     display: inline-flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.Projects_container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.Project-info {
+    z-index: 1;
+    width: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 500px;
+    background-color: $colorBlue;
+    padding: 3rem;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
     justify-content: space-evenly;
-    margin: 2rem;
+}
+
+.Projects_image {
+    z-index: -1;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+}
+
+.Project-info:hover {
+    visibility: visible;
+    background-color: $colorBlue;
+    padding: 3rem;
+}    
+
+.Projects_image:hover {
+    opacity: 20%;
 }
 
 .Projects_box {
-    margin: 2rem;
+    margin-bottom: 3rem;
+}
+
+.weather {
+    margin-top: 3rem;
+}
+
+.golden {
+    margin-top: 3rem;
 }
