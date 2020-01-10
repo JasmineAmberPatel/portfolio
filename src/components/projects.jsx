@@ -56,6 +56,28 @@ function Projects() {
                         </div>
                     </div>
                 </div>
+                <div className="Projects_box music">
+                <img className="Projects_image" src={require('../images/music.png')} alt="golden shoe"></img>
+                    <div className="Project-info gq-info">
+                        <h2 className="Subtitle">Music Library API</h2>
+                        <p className="Paragraph">This CRUD REST API stores information about artists, albums and songs and interacts with a MongoDB database using Express. I used Mongoose to write the MongoDB validation in the form of schemas and models. This project taught me about: Databases Database Design NoSQL MongoDb Database Querying and CRUD operations Models and schemas I also used Test Driven Development and wrote tests using Mocha and Chai.
+                        </p>
+                        <div className="buttons">
+                            <button className="btn btn-dark">View Source</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="Projects_box estate">
+                <img className="Projects_image" src={require('../images/property.png')} alt="golden shoe"></img>
+                    <div className="Project-info gq-info">
+                        <h2 className="Subtitle">Surreal Estate</h2>
+                        <p className="Paragraph">A property search engine created with react. Properties come from a web api. The homepage allows you to add a property and the view properties page allows you to view all available properties. 
+                        </p>
+                        <div className="buttons">
+                            <button className="btn btn-dark">View Source</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
