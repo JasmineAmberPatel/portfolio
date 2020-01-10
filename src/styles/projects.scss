@@ -4,25 +4,25 @@
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
-}
-
-.Projects_container {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
-.Project-info {
+.Projects_box {
     z-index: 1;
-    width: 500px;
+    width: 350px;
     display: flex;
     align-content: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
-    height: 500px;
-    background-color: $colorBlue;
+    height: 350px;
     padding: 3rem;
-    margin-bottom: 1rem;
+    &:hover {
+        visibility: visible;
+        background-color: $colorBlue;
+        padding: 3rem;
+    } 
 }
 
 .buttons {
@@ -31,30 +31,16 @@
 }
 
 .Projects_image {
-    z-index: -1;
+    left: 0;
     position: absolute;
-    height: 500px;
-    width: 500px;
-}
-
-.Project-info:hover {
-    visibility: visible;
-    background-color: $colorBlue;
-    padding: 3rem;
-}    
-
-.Projects_image:hover {
-    opacity: 20%;
+    height: 350px;
+    width: 350px;
+    margin: 0;
+    &:hover {
+        opacity: 5%;
+    }
 }
 
 .Projects_box {
     margin-bottom: 3rem;
-}
-
-.weather {
-    margin-top: 3rem;
-}
-
-.golden {
-    margin-top: 3rem;
 }

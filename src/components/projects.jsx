@@ -11,9 +11,9 @@ function Projects() {
                     <div className="Project-info gq-info">
                         <h2 className="Subtitle">Green Queens</h2>
                         <p className="Paragraph">Green Queens is a website which highlights the impact of the fast fashion industry on the environment.
-                        This was a group project for which i took on the role of team leader.
+                        This was a group project.
                         I built the calculator functionality using a React form, the form passes the submitted information into a JavaScript function which then calculates the volume of CO2 and Water and outputs the message to the user.
-                        I also did all of the styling for the website using CSS and assisted with the API integration using Axios.</p>
+                        I also did all of the styling for the website using CSS.</p>
                         <div className="buttons">
                             <button className="btn btn-dark">View Source</button>
                             <button className="btn btn-dark">View Website</button>
