@@ -7,7 +7,7 @@ function About () {
             <br/>
             <h2 className="Subtitle">Software Developer</h2>
             <br/>
-            <p className="Paragraph">Hello! I am a 25 year old JavaScript developer based in the north west of England. On this website you can see a variety of different personal and professional projects i have worked on, feel free to have a look around and get inspired.</p>
+            <p className="Paragraph">Hello! I am a 25 year old software developer based in the north west of England. On this website you can see a variety of different personal projects i have worked on, feel free to have a look around and get inspired.</p>
         </div>
     )
 };

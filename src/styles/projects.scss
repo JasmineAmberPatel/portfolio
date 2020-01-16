@@ -9,7 +9,6 @@
 }
 
 .Projects_box {
-    z-index: 1;
     width: 350px;
     display: flex;
     align-content: center;
@@ -17,17 +16,18 @@
     flex-direction: column;
     position: relative;
     height: 350px;
-    padding: 3rem;
+    margin-bottom: 4rem;
     &:hover {
         visibility: visible;
         background-color: $colorBlue;
         padding: 3rem;
-    } 
+    }
 }
 
 .buttons {
     display: flex;
     justify-content: space-evenly;
+    z-index: 2
 }
 
 .Projects_image {
@@ -38,9 +38,9 @@
     margin: 0;
     &:hover {
         opacity: 5%;
+        z-index: -1;
     }
-}
-
-.Projects_box {
-    margin-bottom: 3rem;
+    &:active {
+        z-index: -1;
+    }
 }

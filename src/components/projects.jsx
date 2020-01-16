@@ -4,7 +4,7 @@ function Projects() {
     return (
         <div className="Projects" id="projects">
             <br />
-            <h1 className="Title">Projects</h1>
+            <h2 className="Subtitle">Projects</h2>
             <div className="Projects_container">
                 <div className="Projects_box">
                     <img className="Projects_image gq" src={require('../images/gq-cover.png')} alt="green queens"></img>
@@ -15,8 +15,8 @@ function Projects() {
                         I built the calculator functionality using a React form, the form passes the submitted information into a JavaScript function which then calculates the volume of CO2 and Water and outputs the message to the user.
                         I also did all of the styling for the website using CSS.</p>
                         <div className="buttons">
-                            <button className="btn btn-dark">View Source</button>
-                            <button className="btn btn-dark">View Website</button>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/green-queens/" target="_blank">View Source</a>
+                            <a href="https://green-queens.now.sh/"><button className="btn btn-dark">View Website</button></a>
                         </div>
                     </div>
                 </div>
