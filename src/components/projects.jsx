@@ -16,7 +16,7 @@ function Projects() {
                         I also did all of the styling for the website using CSS.</p>
                         <div className="buttons">
                             <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/green-queens/" target="_blank">View Source</a>
-                            <a href="https://green-queens.now.sh/"><button className="btn btn-dark">View Website</button></a>
+                            <a className="btn btn-dark" href="https://green-queens.now.sh/" target="_blank">View Website</a>
                         </div>
                     </div>
                 </div>
@@ -28,8 +28,8 @@ function Projects() {
                         I deployed the API using Heroku i then created a frontend using React and styled it using CSS to display the API information. 
                         I deployed the frontend using Zeit.</p>
                         <div className="buttons">
-                            <button className="btn btn-dark">View Source</button>
-                            <button className="btn btn-dark">View Website</button>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens-Frontend" target="_blank">View Source</a>
+                            <a className="btn btn-dark" href="https://quotes-from-queens-frontend.now.sh/" target="_blank">View Website</a>
                         </div>
                     </div>
                 </div>
@@ -39,8 +39,8 @@ function Projects() {
                         <h2 className="Subtitle">Weather Forecast</h2>
                         <p className="Paragraph">A 5 day weather forecasting app built with React with the data coming from a Web API. Styling done using CSS.</p>
                         <div className="buttons">
-                            <button className="btn btn-dark">View Source</button>
-                            <button className="btn btn-dark">View Website</button>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/weather-app" target="_blank">View Source</a>
+                            <a className="btn btn-dark" href="https://weather-app.jasmineamberja.now.sh/" target="_blank">View Website</a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ function Projects() {
                         The prototype allows you to filter shoes by price, size and popularity. It also allows you to add and remove shoes from the basket.
                         </p>
                         <div className="buttons">
-                            <button className="btn btn-dark">View Source</button>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Golden-Shoe" target="_blank">View Source</a>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ function Projects() {
                         <p className="Paragraph">This CRUD REST API stores information about artists, albums and songs and interacts with a MongoDB database using Express. I used Mongoose to write the MongoDB validation in the form of schemas and models. This project taught me about: Databases Database Design NoSQL MongoDb Database Querying and CRUD operations Models and schemas I also used Test Driven Development and wrote tests using Mocha and Chai.
                         </p>
                         <div className="buttons">
-                            <button className="btn btn-dark">View Source</button>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/music-library-api" target="_blank">View Source</a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ function Projects() {
                         <p className="Paragraph">A property search engine created with react. Properties come from a web api. The homepage allows you to add a property and the view properties page allows you to view all available properties. 
                         </p>
                         <div className="buttons">
-                            <button className="btn btn-dark">View Source</button>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/surreal-estate-api" target="_blank">View Source</a>
                         </div>
                     </div>
                 </div>

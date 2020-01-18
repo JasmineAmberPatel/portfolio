@@ -21,13 +21,17 @@
         visibility: visible;
         background-color: $colorBlue;
         padding: 3rem;
+
+        .Projects_image{
+            opacity: 5%;
+            z-index: -1;
+        }
     }
 }
 
 .buttons {
     display: flex;
     justify-content: space-evenly;
-    z-index: 2
 }
 
 .Projects_image {
@@ -36,10 +40,10 @@
     height: 350px;
     width: 350px;
     margin: 0;
-    &:hover {
-        opacity: 5%;
-        z-index: -1;
-    }
+    // &:hover {
+    //     opacity: 5%;
+    //     z-index: -1;
+    // }
     &:active {
         z-index: -1;
     }
