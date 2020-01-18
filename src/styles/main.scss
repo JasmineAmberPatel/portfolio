@@ -25,6 +25,9 @@
     font-size: 5rem;
     display: flex;
     justify-content: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-weight: bold;
 }
 
 .Subtitle {
@@ -41,6 +44,10 @@
 }
 
 .app {
-  margin-right: 15em;
-  margin-left: 15em;
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+.btn btn-dark {
+  width: 3rem;
 }

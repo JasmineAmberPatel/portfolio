@@ -2,12 +2,22 @@
 
 .Home {
     height: 40vh;
-    background-color: $colorPink;
     display: flex;
     top: -10;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     color: $colorBlack;
-    padding: 3rem;
+    text-align: center;
+    align-items: center;
+    background-color: $colorGrey;
 }
+
+.about {
+    margin-right: 14rem;
+    margin-left: 14rem; 
+}
+
+.btn {
+    width: 10rem;
+  }

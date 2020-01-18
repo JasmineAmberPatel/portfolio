@@ -4,16 +4,16 @@ function Projects() {
     return (
         <div className="Projects" id="projects">
             <br />
-            <h2 className="Subtitle">Projects</h2>
+            <h2 className="Subtitle">Projects</h2> 
             <div className="Projects_container">
                 <div className="Projects_box">
                     <img className="Projects_image gq" src={require('../images/gq-cover.png')} alt="green queens"></img>
                     <div className="Project-info gq-info">
                         <h2 className="Subtitle">Green Queens</h2>
                         <p className="Paragraph">Green Queens is a website which highlights the impact of the fast fashion industry on the environment.
-                        This was a group project.
-                        I built the calculator functionality using a React form, the form passes the submitted information into a JavaScript function which then calculates the volume of CO2 and Water and outputs the message to the user.
-                        I also did all of the styling for the website using CSS.</p>
+                        This was a group project for which i took on the role of team leader.
+                        I took responsibility for the carbon calculator which was created using a React form, which passes the submitted information into a JavaScript function.
+                        I also did all of the styling for the website using CSS and assisted with the API integration.</p>
                         <div className="buttons">
                             <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/green-queens/" target="_blank">View Source</a>
                             <a className="btn btn-dark" href="https://green-queens.now.sh/" target="_blank">View Website</a>
@@ -37,7 +37,7 @@ function Projects() {
                 <img className="Projects_image" src={require('../images/weather.png')} alt="weather app"></img>
                     <div className="Project-info weather-info">
                         <h2 className="Subtitle">Weather Forecast</h2>
-                        <p className="Paragraph">A 5 day weather forecasting app built with React with the data coming from a Web API. Styling done using CSS.</p>
+                        <p className="Paragraph">A 5 day weather forecasting app built with React with the data coming from a Web API. You can search to see the weather at any UK destination. The styling was done using CSS.</p>
                         <div className="buttons">
                             <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/weather-app" target="_blank">View Source</a>
                             <a className="btn btn-dark" href="https://weather-app.jasmineamberja.now.sh/" target="_blank">View Website</a>
@@ -60,7 +60,8 @@ function Projects() {
                 <img className="Projects_image" src={require('../images/music.png')} alt="golden shoe"></img>
                     <div className="Project-info gq-info">
                         <h2 className="Subtitle">Music Library API</h2>
-                        <p className="Paragraph">This CRUD REST API stores information about artists, albums and songs and interacts with a MongoDB database using Express. I used Mongoose to write the MongoDB validation in the form of schemas and models. This project taught me about: Databases Database Design NoSQL MongoDb Database Querying and CRUD operations Models and schemas I also used Test Driven Development and wrote tests using Mocha and Chai.
+                        <p className="Paragraph">This CRUD REST API stores information about artists, albums and songs and interacts with a MongoDB database using Express.
+                        I used Mongoose to write the MongoDB validation in the form of schemas and models, I also used Test Driven Development and wrote tests using Mocha and Chai.
                         </p>
                         <div className="buttons">
                             <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/music-library-api" target="_blank">View Source</a>
@@ -71,7 +72,7 @@ function Projects() {
                 <img className="Projects_image" src={require('../images/property.png')} alt="golden shoe"></img>
                     <div className="Project-info gq-info">
                         <h2 className="Subtitle">Surreal Estate</h2>
-                        <p className="Paragraph">A property search engine created with react. Properties come from a web api. The homepage allows you to add a property and the view properties page allows you to view all available properties. 
+                        <p className="Paragraph">A property search engine created with react. Properties come from a web API. The homepage allows you to add a property and the view properties page allows you to view all properties which have been created. 
                         </p>
                         <div className="buttons">
                             <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/surreal-estate-api" target="_blank">View Source</a>
