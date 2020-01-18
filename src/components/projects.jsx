@@ -28,7 +28,8 @@ function Projects() {
                         I deployed the API using Heroku i then created a frontend using React and styled it using CSS to display the API information. 
                         I deployed the frontend using Zeit.</p>
                         <div className="buttons">
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens-Frontend" target="_blank">View Source</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens" target="_blank">View Backend</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens-Frontend" target="_blank">View Frontend</a>
                             <a className="btn btn-dark" href="https://quotes-from-queens-frontend.now.sh/" target="_blank">View Website</a>
                         </div>
                     </div>

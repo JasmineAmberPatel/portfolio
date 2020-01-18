@@ -48,6 +48,13 @@
   margin-left: 5em;
 }
 
-.btn btn-dark {
-  width: 3rem;
+.btn {
+  width: 9rem;
+}
+
+@media (max-width: 600px) {
+  .app {
+    margin-right: 0em;
+    margin-left: 0em;
+  }
 }

@@ -18,6 +18,12 @@
     margin-left: 14rem; 
 }
 
-.btn {
-    width: 10rem;
+  @media (max-width: 600px) {
+    .about {
+        margin-right: 3rem; 
+        margin-left: 3rem;
+    }
+    .Home {
+        height: 60vh;
+    }
   }
