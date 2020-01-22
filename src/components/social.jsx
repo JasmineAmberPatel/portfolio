@@ -8,7 +8,7 @@ function Social() {
             <br />
             <p className="Paragraph">Feel free to get in touch through any of the social media platforms listed below.</p>
             <br />
-            <a className="btn btn-dark button" href="https://drive.google.com/file/d/10JS6e8AnNfVwuHiB5PUV1HUbs8W-Qzqp/view?usp=sharing" target="_blank">Download CV</a>
+            <a className="btn btn-dark cv" href="https://drive.google.com/file/d/10JS6e8AnNfVwuHiB5PUV1HUbs8W-Qzqp/view?usp=sharing" target="_blank">Download CV</a>
             <br/>
             <div className="social-icons">
                 <SocialIcon url="https://twitter.com/CodesJamber" network="twitter" target="_blank" style={{ height: 25, width: 25, margin: 5 }} bgColor="#272727" fgColor="#ffffff" />

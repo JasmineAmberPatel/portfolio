@@ -12,6 +12,7 @@
     align-items: center;
     background: rgb(225,201,255);
     background: radial-gradient(circle, rgba(225,201,255,1) 0%, rgba(138,198,209,1) 100%);
+    animation: homeAnimation 1s forwards 0.3s linear;
 }
 
 .about {

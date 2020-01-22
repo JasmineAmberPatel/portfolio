@@ -50,6 +50,7 @@
 
 .btn {
   width: 9rem;
+  box-shadow: 0 1rem 2rem rgba($colorBlack,.2);
 }
 
 @media (max-width: 600px) {
@@ -57,4 +58,27 @@
     margin-right: 0em;
     margin-left: 0em;
   }
+}
+
+@keyframes homeAnimation{
+  0%{
+      transform: rotate(0);
+      opacity: 0;
+      }
+  100%{
+      transform: rotate(0);
+      opacity: 1;
+      }
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(3rem);
+  }
+  
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  } 
 }
