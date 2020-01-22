@@ -12,7 +12,6 @@
     align-items: center;
     background: rgb(225,201,255);
     background: radial-gradient(circle, rgba(225,201,255,1) 0%, rgba(138,198,209,1) 100%);
-    animation: homeAnimation 1s forwards 0.3s linear;
 }
 
 .about {
@@ -44,3 +43,20 @@
         width: 90%;
     }
   }
+
+  @keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    
+    80% {
+        transform: translate(10px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    } 
+}
