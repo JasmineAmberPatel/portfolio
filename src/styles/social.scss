@@ -1,10 +1,14 @@
 .Social {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
-    flex-direction: column;
+    color: $colorBlack;
     text-align: center;
+    align-items: center;
     padding: 3rem;
+    margin-bottom: 4rem;
+    background-color: $colorGrey;
 }
 
 .social-icons {

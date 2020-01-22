@@ -18,9 +18,9 @@
     margin: 4rem;
     &:hover {
         visibility: visible;
-        background-color: $colorBlue;
+        background: rgb(138,198,209);
+        background: linear-gradient(0deg, rgba(138,198,209,1) 47%, rgba(255,255,255,1) 100%);
         padding: 3rem;
-
         .Projects_image{
             opacity: 5%;
             z-index: -1;

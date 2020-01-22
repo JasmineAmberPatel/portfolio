@@ -10,7 +10,8 @@
     color: $colorBlack;
     text-align: center;
     align-items: center;
-    background-color: $colorGrey;
+    background: rgb(138,198,209);
+    background: linear-gradient(0deg, rgba(138,198,209,1) 47%, rgba(255,255,255,1) 100%);
 }
 
 .about {
@@ -33,9 +34,12 @@
         margin-left: 3rem;
     }
     .Home {
-        height: 70vh;
+        height: 60vh;
     }
     .Title {
         font-size: 3rem;
+    }
+    .tech-logos {
+        justify-content: space-between;
     }
   }

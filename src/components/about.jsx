@@ -17,8 +17,6 @@ function About() {
                 <img className="logos" src={require('../images/sass-01.png')} alt="sass logo"></img>
                 <img className="logos" src={require('../images/node-01.png')} alt="node logo"></img>
             </div>
-            <br />
-            <a className="btn btn-dark button" href="https://drive.google.com/file/d/10JS6e8AnNfVwuHiB5PUV1HUbs8W-Qzqp/view?usp=sharing" target="_blank">Download CV</a>
         </div>
     )
 };
