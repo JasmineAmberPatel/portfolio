@@ -3,7 +3,6 @@
 .Home {
     height: 50vh;
     display: flex;
-    top: -10;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -30,8 +29,7 @@
 
 @media (max-width: 600px) {
     .about {
-        margin-right: 3rem; 
-        margin-left: 3rem;
+        width: 90%;
     }
     .Home {
         height: 70vh;

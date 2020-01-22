@@ -16,8 +16,8 @@ function Projects() {
                         I took responsibility for the carbon calculator which was created using a React form, which passes the submitted information into a JavaScript function.
                         I also did all of the styling for the website using CSS and assisted with the API integration.</p>
                         <div className="buttons">
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/green-queens/" target="_blank">View Source</a>
-                            <a className="btn btn-dark" href="https://green-queens.now.sh/" target="_blank">View Website</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/green-queens/" target="_blank" rel="noopener noreferrer">View Source</a>
+                            <a className="btn btn-dark" href="https://green-queens.now.sh/" target="_blank" rel="noopener noreferrer">View Website</a>
                         </div>
                     </div>
                 </div>
@@ -29,9 +29,9 @@ function Projects() {
                         I deployed the API using Heroku i then created a frontend using React and styled it using CSS to display the API information. 
                         I deployed the frontend using Zeit.</p>
                         <div className="buttons">
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens" target="_blank">View Backend</a>
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens-Frontend" target="_blank">View Frontend</a>
-                            <a className="btn btn-dark" href="https://quotes-from-queens-frontend.now.sh/" target="_blank">View Website</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens" target="_blank" rel="noopener noreferrer">View Backend</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens-Frontend" target="_blank" rel="noopener noreferrer">View Frontend</a>
+                            <a className="btn btn-dark" href="https://quotes-from-queens-frontend.now.sh/" target="_blank" rel="noopener noreferrer">View Website</a>
                         </div>
                     </div>
                 </div>
@@ -41,8 +41,8 @@ function Projects() {
                         <h2 className="Subtitle">Weather Forecast</h2>
                         <p className="Paragraph">A 5 day weather forecasting app built with React with the data coming from a Web API. You can search to see the weather at any UK destination. The styling was done using CSS.</p>
                         <div className="buttons">
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/weather-app" target="_blank">View Source</a>
-                            <a className="btn btn-dark" href="https://weather-app.jasmineamberja.now.sh/" target="_blank">View Website</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/weather-app" target="_blank" rel="noopener noreferrer">View Source</a>
+                            <a className="btn btn-dark" href="https://weather-app.jasmineamberja.now.sh/" target="_blank" rel="noopener noreferrer">View Website</a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ function Projects() {
                         The prototype allows you to filter shoes by price, size and popularity. It also allows you to add and remove shoes from the basket.
                         </p>
                         <div className="buttons">
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Golden-Shoe" target="_blank">View Source</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Golden-Shoe" target="_blank" rel="noopener noreferrer">View Source</a>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ function Projects() {
                         I used Mongoose to write the MongoDB validation in the form of schemas and models, I also used Test Driven Development and wrote tests using Mocha and Chai.
                         </p>
                         <div className="buttons">
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/music-library-api" target="_blank">View Source</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/music-library-api" target="_blank" rel="noopener noreferrer">View Source</a>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ function Projects() {
                         <p className="Paragraph">A property search engine created with react. Properties come from a web API. The homepage allows you to add a property and the view properties page allows you to view all properties which have been created. 
                         </p>
                         <div className="buttons">
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/surreal-estate-api" target="_blank">View Source</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/surreal-estate-api" target="_blank" rel="noopener noreferrer">View Source</a>
                         </div>
                     </div>
                 </div>

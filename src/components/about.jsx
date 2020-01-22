@@ -7,7 +7,7 @@ function About() {
             <br />
             <h2 className="Subtitle">Software Developer</h2>
             <br />
-            <p className="Paragraph about">Hello! I am a 25 year old software developer based in the north west of England. On this website you can see a variety of different personal projects i have worked on, feel free to have a look around and get inspired.</p>
+            <p className="Paragraph about">Hello! I am a 25 year old, software developer based in the north west of England. On this website you can see a variety of different personal projects I have worked on, feel free to have a look around and get inspired.</p>
             <br />
             <div className="tech-logos">
                 <img className="logos" src={require('../images/js-01.png')} alt="js logo"></img>
