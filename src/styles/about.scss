@@ -1,7 +1,7 @@
 @import './variables.scss';
 
 .Home {
-    height: 40vh;
+    height: 50vh;
     display: flex;
     top: -10;
     flex-direction: column;
@@ -18,12 +18,24 @@
     margin-left: 14rem; 
 }
 
-  @media (max-width: 600px) {
+.tech-logos {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.logos {
+    height: 6rem;
+}
+
+@media (max-width: 600px) {
     .about {
         margin-right: 3rem; 
         margin-left: 3rem;
     }
     .Home {
-        height: 60vh;
+        height: 70vh;
+    }
+    .Title {
+        font-size: 3rem;
     }
   }

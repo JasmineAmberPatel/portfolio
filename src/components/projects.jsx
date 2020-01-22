@@ -5,6 +5,7 @@ function Projects() {
         <div className="Projects" id="projects">
             <br />
             <h2 className="Subtitle">Projects</h2> 
+            <br/>
             <div className="Projects_container">
                 <div className="Projects_box">
                     <img className="Projects_image gq" src={require('../images/gq-cover.png')} alt="green queens"></img>
