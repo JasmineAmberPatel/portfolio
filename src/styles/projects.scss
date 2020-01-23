@@ -52,3 +52,12 @@
 
   }
 }  
+
+@media (max-width: 940px) {
+    .Projects_container {
+        justify-content: center;
+  }
+    .Projects_box {
+        justify-content: space-around;
+  }
+}  
