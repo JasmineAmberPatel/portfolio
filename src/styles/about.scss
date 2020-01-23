@@ -3,24 +3,37 @@
 .Home {
     height: 50vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
     color: $colorBlack;
-    text-align: center;
-    align-items: center;
     background: rgb(225,201,255);
     background: radial-gradient(circle, rgba(225,201,255,1) 0%, rgba(138,198,209,1) 100%);
 }
 
-.about {
-    width: 60%;
+.About {
+    width: 65%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 4rem;
+    padding: 4rem;
+}
+
+.jasmine {
+    width: 35%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .tech-logos {
     display: inline-flex;
     justify-content: space-between;
-    width: 60%;
+    width: 100%;
 }
 
 .logos {
