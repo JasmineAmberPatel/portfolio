@@ -1,10 +1,21 @@
+.Projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorGrey;
+}
+
+.project-title {
+    margin-top: 4rem;
+}
+
 .Projects_container {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
-    background-color: $colorGrey;
 }
 
 .Projects_box {
@@ -52,7 +63,6 @@
 @media (max-width: 600px) {
     .Projects_box {
         margin: 3rem;
-
   }
 }  
 

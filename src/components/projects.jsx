@@ -3,9 +3,7 @@ import React from 'react';
 function Projects() {
     return (
         <div className="Projects" id="projects">
-            <br />
-            <h2 className="Subtitle">Projects</h2>
-            <br />
+            <h2 className="Subtitle project-title">Projects</h2>
             <div className="Projects_container">
                 <div className="Projects_box">
                     <img className="Projects_image gq" src={require('../images/gq-cover.png')} alt="green queens"></img>
