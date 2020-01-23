@@ -9,7 +9,6 @@ import Social from './components/social';
 function App() {
   return (
     <div className="app">
-      <Navbar />
       <About />
       <Projects />
       <Social />

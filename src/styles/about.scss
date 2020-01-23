@@ -1,6 +1,8 @@
 @import './variables.scss';
 
 .Home {
+    margin-top: 4rem;
+    box-shadow: 0 1rem 2rem rgba($colorBlack,.2);
     height: 50vh;
     display: flex;
     color: $colorBlack;
