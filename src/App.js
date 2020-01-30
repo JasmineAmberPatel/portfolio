@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './styles/main.scss';
 import About from './components/about';
 import Projects from './components/projects';
 import Social from './components/social';
 import SpotifyWebApi from 'spotify-web-api-js';
-
 const spotifyApi = new SpotifyWebApi();
 
-class App extends React.Component {
-  constructor() {
+
+class App extends Component {
+  constructor(){
     super();
     const params = this.getHashParams();
     const token = params.access_token;
@@ -19,28 +19,27 @@ class App extends React.Component {
       loggedIn: token ? true : false,
       nowPlaying: { name: 'Not Checked', albumArt: '' }
     }
-    console.log(params);
   }
   getHashParams() {
     var hashParams = {};
     var e, r = /([^&;=]+)=?([^&;]*)/g,
-      q = window.location.hash.substring(1);
+        q = window.location.hash.substring(1);
     e = r.exec(q)
     while (e) {
-      hashParams[e[1]] = decodeURIComponent(e[2]);
-      e = r.exec(q);
+       hashParams[e[1]] = decodeURIComponent(e[2]);
+       e = r.exec(q);
     }
     return hashParams;
   }
 
-  getNowPlaying() {
+  getNowPlaying(){
     spotifyApi.getMyCurrentPlaybackState()
       .then((response) => {
         this.setState({
-          nowPlaying: {
-            name: response.item.name,
-            albumArt: response.item.album.images[0].url
-          }
+          nowPlaying: { 
+              name: response.item.name, 
+              albumArt: response.item.album.images[0].url
+            }
         });
       })
   }
@@ -52,7 +51,7 @@ class App extends React.Component {
         <Projects />
         <Social />
         <div className="spotify">
-          <a className="spotify login" href='http://localhost:8888' > Login to Spotify </a>
+          <a href='http://localhost:8888' className="btn btn-dark">Spotify Login</a>
           <div>
             Now Playing: {this.state.nowPlaying.name}
           </div>
@@ -60,7 +59,7 @@ class App extends React.Component {
             <img src={this.state.nowPlaying.albumArt} style={{ height: 150 }} alt="spotify albumn art" />
           </div>
           {this.state.loggedIn &&
-            <button onClick={() => this.getNowPlaying()} className="btn"> Check Now Playing </button>}
+            <button onClick={() => this.getNowPlaying()} className="btn btn-dark"> Check Now Playing </button>}
         </div>
       </div>
     );
