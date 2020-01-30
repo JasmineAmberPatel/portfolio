@@ -35,6 +35,7 @@
     font-size: 2.5rem;
     display: flex;
     justify-content: center;
+    color: $colorBlack;
 }
 
 .Paragraph {
@@ -52,10 +53,6 @@
 .btn {
   width: 9rem;
   box-shadow: 0 1rem 2rem rgba($colorBlack,.2);
-}
-
-.spotify {
-  margin: 20px;
 }
 
 @media (max-width: 800px) {
