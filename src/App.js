@@ -33,14 +33,14 @@ class App extends React.Component {
     return hashParams;
   }
 
-  getNowPlaying(){
+  getNowPlaying() {
     spotifyApi.getMyCurrentPlaybackState()
       .then((response) => {
         this.setState({
-          nowPlaying: { 
-              name: response.item.name, 
-              albumArt: response.item.album.images[0].url
-            }
+          nowPlaying: {
+            name: response.item.name,
+            albumArt: response.item.album.images[0].url
+          }
         });
       })
   }
@@ -49,20 +49,19 @@ class App extends React.Component {
     return (
       <div className="App">
         <About />
-        <a className="spotify" href='http://localhost:8888' > Login to Spotify </a>
-        <div>
-          Now Playing: {this.state.nowPlaying.name}
-        </div>
-        <div>
-          <img src={this.state.nowPlaying.albumArt} style={{ height: 150 }} />
-        </div>
-        { this.state.loggedIn &&
-        <button onClick={() => this.getNowPlaying()}>
-          Check Now Playing
-        </button>
-      }
         <Projects />
         <Social />
+        <div className="spotify">
+          <a className="spotify login" href='http://localhost:8888' > Login to Spotify </a>
+          <div>
+            Now Playing: {this.state.nowPlaying.name}
+          </div>
+          <div>
+            <img src={this.state.nowPlaying.albumArt} style={{ height: 150 }} alt="spotify albumn art" />
+          </div>
+          {this.state.loggedIn &&
+            <button onClick={() => this.getNowPlaying()} className="btn"> Check Now Playing </button>}
+        </div>
       </div>
     );
   }
