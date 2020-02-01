@@ -6,7 +6,9 @@ function Social() {
         <div className="Social" id="social">
             <h2 className="Subtitle">Get in Touch</h2>
             <br />
-            <p className="Paragraph">Feel free to get in touch through any of the social media platforms listed below.</p>
+            <p className="Paragraph">Feel free to get in touch through any of the social media platforms listed below or just listen along on spotify.</p>
+            <br />
+            <iframe src="https://open.spotify.com/embed/playlist/6GTorzH0XROCd0kBqiDKBQ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             <br />
             <a className="btn btn-dark cv" href="https://drive.google.com/file/d/10JS6e8AnNfVwuHiB5PUV1HUbs8W-Qzqp/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
             <br/>
