@@ -48,9 +48,20 @@
     height: 6rem;
 }
 
+@media (max-width: 800px) {
+    .tech-logos {
+        width: 100%;
+    }
+    .logos {
+        height: 4rem;
+        width: 4rem;
+    }
+}
+
 @media (max-width: 1200px) {
     .Home {
         height: 70vh;
+        width: 100%;
     }
   }
 

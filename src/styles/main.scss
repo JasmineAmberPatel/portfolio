@@ -19,6 +19,8 @@
   body {
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
+    margin-right: 4rem;
+    margin-left: 4rem;
   }
 
 .Title {
@@ -45,25 +47,26 @@
     font-family: sans-serif;
 }
 
-.app {
-  margin-right: 4em;
-  margin-left: 4em;
-}
-
 .btn {
   width: 9rem;
   box-shadow: 0 1rem 2rem rgba($colorBlack,.2);
 }
 
-@media (max-width: 800px) {
-  .app {
+@media (max-width: 1200px) {
+  .Home {
+      height: 70vh;
+  }
+  body {
     margin-right: 0em;
     margin-left: 0em;
   }
+}
+
+@media (max-width: 800px) {
   .Title {
     font-size: 3.5rem;
-    margin-right: 0em;
-    margin-left: 0em;
+    margin-right: 0rem;
+    margin-left: 0rem;
   }
 }
 
