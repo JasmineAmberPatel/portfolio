@@ -18,20 +18,6 @@ function Projects() {
                     </div>
                 </div>
                 <div className="Projects_box">
-                    <img className="Projects_image queens" src={require('../images/queens-01.png')} alt="quotes from queens"></img>
-                    <div className="Project-info queens-info">
-                        <h2 className="Subtitle">Quotes From Queens</h2>
-                        <p className="Paragraph">I built an Express API containing quotes from inspirational female artists and celebrities using MongoDB as the database.
-                        I deployed the API using Heroku then created a frontend using React and styled it using CSS to display the API information.
-                        I deployed the frontend using Zeit.</p>
-                        <div className="buttons">
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens" target="_blank" rel="noopener noreferrer">View Backend</a>
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens-Frontend" target="_blank" rel="noopener noreferrer">View Frontend</a>
-                            <a className="btn btn-dark" href="https://quotes-from-queens-frontend.now.sh/" target="_blank" rel="noopener noreferrer">View Website</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="Projects_box">
                     <img className="Projects_image gq" src={require('../images/GQ-01.png')} alt="green queens"></img>
                     <div className="Project-info gq-info">
                         <h2 className="Subtitle">Green Queens</h2>
@@ -42,6 +28,20 @@ function Projects() {
                         <div className="buttons">
                             <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/green-queens/" target="_blank" rel="noopener noreferrer">View Source</a>
                             <a className="btn btn-dark" href="https://green-queens.now.sh/" target="_blank" rel="noopener noreferrer">View Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="Projects_box">
+                    <img className="Projects_image queens" src={require('../images/queens-01.png')} alt="quotes from queens"></img>
+                    <div className="Project-info queens-info">
+                        <h2 className="Subtitle">Quotes From Queens</h2>
+                        <p className="Paragraph">I built an Express API containing quotes from inspirational female artists and celebrities using MongoDB as the database.
+                        I deployed the API using Heroku then created a frontend using React and styled it using CSS to display the API information.
+                        I deployed the frontend using Zeit.</p>
+                        <div className="buttons">
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens" target="_blank" rel="noopener noreferrer">View Backend</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Quotes-From-Queens-Frontend" target="_blank" rel="noopener noreferrer">View Frontend</a>
+                            <a className="btn btn-dark" href="https://quotes-from-queens-frontend.now.sh/" target="_blank" rel="noopener noreferrer">View Website</a>
                         </div>
                     </div>
                 </div>
@@ -57,17 +57,6 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="Projects_box estate">
-                    <img className="Projects_image" src={require('../images/surreal-01.png')} alt="golden shoe"></img>
-                    <div className="Project-info gq-info">
-                        <h2 className="Subtitle">Surreal Estate</h2>
-                        <p className="Paragraph">A property search engine created with React. Properties come from a web API. The homepage allows you to add a property and the view properties page allows you to view all properties which have been created.
-                        </p>
-                        <div className="buttons">
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/surreal-estate-api" target="_blank" rel="noopener noreferrer">View Source</a>
-                        </div>
-                    </div>
-                </div>
                 <div className="Projects_box  weather">
                     <img className="Projects_image" src={require('../images/weather-01.png')} alt="weather app"></img>
                     <div className="Project-info weather-info">
@@ -76,6 +65,17 @@ function Projects() {
                         <div className="buttons">
                             <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/weather-app" target="_blank" rel="noopener noreferrer">View Source</a>
                             <a className="btn btn-dark" href="https://weather-app.jasmineamberja.now.sh/" target="_blank" rel="noopener noreferrer">View Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="Projects_box estate">
+                    <img className="Projects_image" src={require('../images/surreal-01.png')} alt="golden shoe"></img>
+                    <div className="Project-info gq-info">
+                        <h2 className="Subtitle">Surreal Estate</h2>
+                        <p className="Paragraph">A property search engine created with React. Properties come from a web API. The homepage allows you to add a property and the view properties page allows you to view all properties which have been created.
+                        </p>
+                        <div className="buttons">
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/surreal-estate-api" target="_blank" rel="noopener noreferrer">View Source</a>
                         </div>
                     </div>
                 </div>
