@@ -10,6 +10,8 @@
     color: $colorBlack;
     background: rgb(225,201,255);
     background: radial-gradient(circle, rgba(225,201,255,1) 0%, rgba(138,198,209,1) 100%);
+    background-image: url("../images/pink.jpg");
+    background-size: cover;
 }
 
 .About {

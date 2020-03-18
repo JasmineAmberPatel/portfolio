@@ -30,13 +30,12 @@
     margin: 4rem;
     &:hover {
         visibility: visible;
-        background: rgb(138,198,209);
-        background: radial-gradient(circle, rgba(138,198,209,1) 0%, rgba(165,199,223,1) 75%, rgba(225,201,255,1) 100%);
+        background: $colorWhite;
         padding: 3rem;
         animation: homeAnimation 1s forwards 0s linear;
         box-shadow: 0 1rem 2rem rgba($colorBlack,.2);
         .Projects_image{
-            opacity: 5%;
+            opacity: 1%;
             z-index: -1;
         }
     }
