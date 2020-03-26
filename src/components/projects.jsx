@@ -5,6 +5,18 @@ function Projects() {
         <div className="Projects" id="projects">
             <h2 className="Subtitle project-title">Projects</h2>
             <div className="Projects_container">
+            <div className="Projects_box snacky">
+                    <img className="Projects_image" src={require('../images/snacky.png')} alt="snacky snake game"></img>
+                    <div className="Project-info gq-info">
+                        <h2 className="Subtitle">Snacky Snake</h2>
+                        <p className="Paragraph">A classic snake game created using vanilla JavaScript and styled with CSS. All graphics were also created by me using adobe illustrator. Deployed using Zeit.
+                        </p>
+                        <div className="buttons">
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Snake" target="_blank" rel="noopener noreferrer">View Source</a>
+                            <a className="btn btn-dark" href="https://snackysnake.now.sh/" target="_blank" rel="noopener noreferrer">Play Game</a>
+                        </div>
+                    </div>
+                </div>
             <div className="Projects_box golden">
                     <img className="Projects_image" src={require('../images/golden-shoe-01.png')} alt="golden shoe"></img>
                     <div className="Project-info gq-info">
