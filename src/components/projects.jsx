@@ -13,8 +13,8 @@ function Projects() {
                         </p>
                         <div className="buttons">
                             <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/spotify-mosaic-backend" target="_blank" rel="noopener noreferrer">View Backend</a>
-                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/spotify-mosaic" target="_blank" rel="noopener noreferrer">View Frontend</a>
-                            <a className="btn btn-dark" href="https://spotify-mosaic.now.sh/" target="_blank" rel="noopener noreferrer">View Website</a>
+                            <a className="btn btn-dark" href="https://github.com/JasmineAmberPatel/Music-Mosaic" target="_blank" rel="noopener noreferrer">View Frontend</a>
+                            <a className="btn btn-dark" href="https://music-mosaic.now.sh/" target="_blank" rel="noopener noreferrer">View Website</a>
                         </div>
                     </div>
                 </div>
