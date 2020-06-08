@@ -8,7 +8,7 @@ function Projects() {
             <div className="Projects_box spotify">
                     <img className="Projects_image" src={require('../images/spotify-mosaic.png')} alt="spotify mosaic"></img>
                     <div className="Project-info gq-info">
-                        <h2 className="Subtitle">Spotify Mosaic</h2>
+                        <h2 className="Subtitle">Music Mosaic</h2>
                         <p className="Paragraph">A React application which uses the Spotify API to get the album art of a users 50 most recently listened to songs on Spotify and turn it into a mosaic. Frontend deployed using Zeit. The backend is a auth server which validates a users spotify account, deployed with Heroku.
                         </p>
                         <div className="buttons">
