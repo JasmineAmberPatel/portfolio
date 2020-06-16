@@ -6,11 +6,9 @@ function Social() {
         <div className="Social" id="social">
             <h2 className="Subtitle">Get in Touch</h2>
             <br />
-            <p className="Paragraph">Feel free to get in touch through any of the social media platforms listed below or just listen along on spotify.</p>
+            <p className="Paragraph">Feel free to get in touch through any of the social media platforms listed below.</p>
             <br />
-            <iframe src="https://open.spotify.com/embed/playlist/6GTorzH0XROCd0kBqiDKBQ" title="spotify playlist" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <br />
-            <a className="btn btn-dark cv" href="https://drive.google.com/file/d/10JS6e8AnNfVwuHiB5PUV1HUbs8W-Qzqp/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
+            <a className="btn btn-dark cv" href="https://drive.google.com/file/d/1itkIC-r0tXXPwAZ8WdwxVqCNNnjuZPAF/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
             <br/>
             <div className="social-icons">
                 <SocialIcon url="https://twitter.com/CodesJamber" network="twitter" target="_blank" style={{ height: 25, width: 25, margin: 5 }} bgColor="#272727" fgColor="#ffffff" />
